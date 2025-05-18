@@ -57,11 +57,13 @@ Maak een zelfstandige Java-applicatie die via meerdere threads projecten aanmaak
 - De dueDate van een project wordt bepaald via het bestand **simulation/projects.properties**
 
 Voorbeeldbestand:
+
 ```
 thread1.time=MINUTES_10
 thread2.time=MONTHS_1
 thread3.time=DAYS_5
 ```
+
 Voor thread1 wordt het eerste project 10 minuten in de toekomst geplaatst, en elk volgend project telkens 10 minuten later.
 
 De threads schrijven de UUIDs van de aangemaakte projecten naar het bestand simulation/ids.txt.
@@ -74,7 +76,7 @@ Geef weer:
 - Totale goedgekeurde budget
 - Projecten per status (NEW, APPROVED, REJECTED, CLOSED)
 
-- ![Screenshot 2025-05-18 at 14.22.10.png](images/Screenshot%202025-05-18%20at%2014.22.10.png)
+![Screenshot 2025-05-18 at 14.22.10.png](images/Screenshot%202025-05-18%20at%2014.22.10.png)
 
 Extra: toon bij REJECTED ook de reden van afkeuring
 
